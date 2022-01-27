@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Room Supplier</string>
+    <string name="rooms_splash">Rooms</string>
+    <string name="registration_launch">Registration</string>
+    <string name="sign_in_launch">Sign In</string>
+    <string name="sign_in_login">Sign In</string>
+    <string name="email_login">Email</string>
+    <string name="password_login">Password</string>
+    <string name="sign_in_logs">Sign</string>
+    <string name="forgot_password_txt">Forgot Password?</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="error_invalid_password">Password is short</string>
+    <string name="registration">Registration</string>
+    <string name="password">Password</string>
+    <string name="business_name">Business Name</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="incoming_orders_act">Incoming Orders</string>
+    <string name="outgoing_orders_act">Outgoing Orders</string>
+    <string name="business_outactivity">Business Name</string>
+    <string name="destination_outactivity">Destination</string>
+    <string name="amount_outactivity">Amount</string>
+    <string name="payment_status">Payment</string>
+    <string name="accept_incomingtactivity">Accept</string>
+    <string name="decline_incomingtactivity">Decline</string>
+    <string name="reason_for_decline">Reason for decline</string>
+    <string name="submit_feedback">Submit</string>
+    <string name="cancel_feedback">Decline</string>
+</resources>

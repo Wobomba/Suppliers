@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Launch_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rooms_splash"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#570213"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginBottom="100dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:id="@+id/Separator"/>
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registration_launch"
+        android:textColor="@color/white"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:id="@+id/Register_btn"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="120dp" />
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in_launch"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:id="@+id/login_btn"
+        android:layout_marginStart="150dp"
+        android:layout_marginEnd="120dp" />
+
+
+
+
+</LinearLayout>

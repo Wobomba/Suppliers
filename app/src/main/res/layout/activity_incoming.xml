@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncomingActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/business_outactivity"
+        android:textColor="#570213"
+        android:textColorHint="#570213"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/Cat_Outgoing"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/destination_outactivity"
+        android:textColor="#570213"
+        android:textColorHint="#570213"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/Outgoing_name"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount_outactivity"
+        android:textColor="#570213"
+        android:textColorHint="#570213"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/Amount_outgoing"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/payment_status"
+        android:textColor="#570213"
+        android:textColorHint="#570213"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/Destination_outgoing"
+        android:autofillHints="" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/accept_incomingtactivity"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:id="@+id/accept_btn"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="10dp"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/decline_incomingtactivity"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="10dp"
+            android:padding="10dp"
+            android:id="@+id/decline_btn"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
