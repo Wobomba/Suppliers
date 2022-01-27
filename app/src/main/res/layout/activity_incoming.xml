@@ -10,6 +10,21 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:hint="@string/category_outactivity"
+        android:textColor="#570213"
+        android:textColorHint="#570213"
+        android:inputType="text"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:padding="7dp"
+        android:id="@+id/Category_Outgoing"
+        android:autofillHints="" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:hint="@string/business_outactivity"
         android:textColor="#570213"
         android:textColorHint="#570213"

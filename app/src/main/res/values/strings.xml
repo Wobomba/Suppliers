@@ -37,4 +37,5 @@
     <string name="reason_for_decline">Reason for decline</string>
     <string name="submit_feedback">Submit</string>
     <string name="cancel_feedback">Decline</string>
+    <string name="category_outactivity">Category</string>
 </resources>
