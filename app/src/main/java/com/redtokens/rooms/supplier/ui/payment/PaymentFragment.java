@@ -1,4 +1,4 @@
-package com.redtokens.rooms.supplier.ui.slideshow;
+package com.redtokens.rooms.supplier.ui.payment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,14 +14,14 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.redtokens.rooms.supplier.R;
 
-public class SlideshowFragment extends Fragment {
+public class PaymentFragment extends Fragment {
 
-    private SlideshowViewModel slideshowViewModel;
+    private PaymentViewModel slideshowViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         slideshowViewModel =
-                new ViewModelProvider(this).get(SlideshowViewModel.class);
+                new ViewModelProvider(this).get(PaymentViewModel.class);
         View root = inflater.inflate(R.layout.fragment_payments, container, false);
         final TextView textView = root.findViewById(R.id.text_slideshow);
         slideshowViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {

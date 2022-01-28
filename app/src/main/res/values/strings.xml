@@ -38,4 +38,12 @@
     <string name="submit_feedback">Submit</string>
     <string name="cancel_feedback">Decline</string>
     <string name="category_outactivity">Category</string>
+    <string name="menu_clients">Clients</string>
+    <string name="menu_orders">Orders</string>
+    <string name="menu_payment">Payment</string>
+    <string name="clientname_addactivity">Client Name</string>
+    <string name="add_activity">Add</string>
+    <string name="clear_activity">Clear</string>
+    <string name="item_outactivity">"Item "</string>
+    <string name="items_outactivity">Item</string>
 </resources>
